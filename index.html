@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Workers - HW</title>
+</head>
+<body>
+    <h1>Image Manipulation</h1>
+
+    <input type="file" accept="image/*" id="fileinput">
+    <button onclick="startProcessImage()">Process</button>
+
+    <div style="margin-top: 100px; margin-bottom: 100px;">
+        <span id="spinner" style="display: inline-block;">Spinner...</span>
+    </div>
+
+    <div>
+        <canvas id="canvas" width="0" height="0"></canvas>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
